@@ -30,10 +30,10 @@
 				<artifactId>tomcat7-maven-plugin</artifactId> 
 				<version>2.2</version> 
 				<configuration> 
-					<url>http://3.109.152.113:8080/manager/text</url> 
+					<url>http://44.202.77.25:8081/manager/text</url> 
 					<server>apache-tomcat</server> 
-					<username>admin</username>
-					<password>admin</password>
+					<username>tomcat</username>
+					<password>tomcat</password>
 					<path>/Ecomm</path> 
 				</configuration> 
 			</plugin>
