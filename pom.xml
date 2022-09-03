@@ -22,6 +22,17 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+           <snapshotRepository>
+              <id>nexusRepo</id>
+              <url>http:http://13.232.134.192:8081/repository/Sample-Snapshot/</url>
+           </snapshotRepository>
+		
+	   <repository>
+             <id>nexusRepo</id>
+             <url>http://13.232.134.192:8081/repository/Sample-Release/</url>
+          </repository>
+       </distributionManagement>
 	<build>
 		<finalName>Ecomm</finalName>
 		<plugins>
