@@ -18,11 +18,7 @@
 	</dependencies>
 	
 	<distributionManagement>
-         <repository>
-          <id>central</id>
-          <name>ip-172-31-8-94.us-west-2.compute.internal-releases</name>
-          <url>http://44.193.209.61:8081/artifactory/libs-release-local</url>
-         </repository>
+         
            <snapshotRepository>
               <id>nexusRepo</id>
               <url>http://13.232.134.192:8081/repository/Sample-Snapshot/</url>
